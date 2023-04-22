@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 16px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    max-height: 100vh;
+    font-family: 'Comfortaa', cursive;
+    line-height: 1.5;
+    /* display: flex; */
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 10px;
+}
+.headers{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 10px 20px;
+    gap: 1rem;
+    /* background-color: #000; */
+    /* color: #fff; */
+}
+.headers h1{
+    /* font-size: 2rem; */
+    font-weight: 700;
+    cursor: pointer;
+}
+.nav-bar{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    /* text-align: center; */
+    align-items: center;
+}
+.nav-bar li a{
+    text-decoration: none;
+    color: #000;
+    /* font-size: 1.2rem; */
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.nav-bar li a:hover{
+    background-color: #000;
+    color: #fff;
+}
+.nav-bar li a.active{
+    background-color: #000;
+    color: #fff;
+}
+.first-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 10rem;
+    margin-top: 10px;
+    gap: 4rem;
+}
+
+.first-container h1,h2{
+    color: aqua;
+}
+.second-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 10rem;
+    /* margin-top: 10px; */
+    gap: 4rem;
+}
+img{
+    border-radius: 10px;
+}
+.third-container{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 0rem 10rem;
+    margin-top: 40px;
+    /* margin-bottom: 40px; */
+    gap: 3rem;
+
+}
+footer{
+    background-color: #000;
+    color: white;
+    padding: 3rem;
+    line-height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+footer a {
+    color: white;
+}
+.second-container h1{
+    color: aqua;
+}
